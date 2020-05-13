@@ -35,7 +35,7 @@ with valve.source.master_server.MasterServerQuerier() as msq:
 
 	# Rare AF, if you see this error it's a miracle, but better catch it if it happens
 	except valve.source.NoResponseError:
-		print("Master server request timed out!")
+		print("Master server request timed out! You just witnessed a miracle!")
 
 	# Called when the server list ended. Idk why it's OSError
 	except OSError:
