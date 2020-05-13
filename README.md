@@ -7,8 +7,8 @@ Lists Valve Game Servers with specified convar
 - socket 
 
 # how to use
-clone the repo, `python main.py` and the program will tell you the rest. the servers are added to servers.txt
-
+clone the repo, `python main.py` and the program will tell you the rest. the servers are added to servers.txt. also i probably should mention that you have to change the gamedir parameter in the server lister. by default it's `u"tf"` you can change it to whatever you want `u"cstrike"`, `u"garrysmod"` idk
+`
 # i have an issue
 create an issue with the issue tracker
 
