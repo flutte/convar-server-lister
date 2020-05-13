@@ -10,7 +10,7 @@ with valve.source.master_server.MasterServerQuerier() as msq:
 	servers_found = 0
 	servers_checked = []
 	try:
-		for address in msq.find(region=[u"eu", "as", "na", "sa"],
+		for address in msq.find(region=[u"eu", u"as", u"na", u"sa"],
 								gamedir=u'tf'): #You can customize this if you wish and have an idea what you're doing (csgo, cstrike, tf, garrysmod)
 
 			try:
