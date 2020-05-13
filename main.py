@@ -18,7 +18,7 @@ with valve.source.master_server.MasterServerQuerier() as msq:
 
 					# Save the server ip:port to a file
 					with open("servers.txt","a") as f:
-						f.write(f"\n{address[0]}:{address[1]} --- {convar_value_to_look_for}")
+						f.write(f"\n{address[0]}:{address[1]} --- {convar_to_look_for}")
 
 					print(f"\n\tFound a server! IP: {address[0]}:{address[1]}\n")
 
